@@ -1,0 +1,316 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block body %}
+<div class="offer">
+                <div class="bg1">
+                    <div class="uk-background-bottom-center uk-background-norepeat" style="background-image: url({% static '/img/bg1.jpg' %});" uk-parallax="bgy: 100">
+                        <div class="uk-background-top-center uk-background-norepeat" style="background-image: url({% static '/img/bg2.png' %});" uk-parallax="bgx: -200">
+                            <div class="main-bg uk-background-bottom-center uk-background-norepeat" style="background-image: url({% static '/img/bg3.png' %});" uk-parallax="bgx: 200">
+                                <div class="uk-container uk-light">
+                                    <h1 class="uk-text-uppercase uk-margin-xlarge-top">Туристический Альянс<br> <b>кыргызстана</b></h1>
+                                    <div class="uk-margin-medium-top">
+                                    <a class="uk-button uk-button-primary brr uk-margin-small-right" href="about.html"> Подробнее</a>
+                                    <a class="uk-button uk-button-secondary brr" href="news.html"> Новости</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="main-news pattern">
+                <div class="uk-container">
+                    <h2 class="uk-heading-bullet uk-text-uppercase uk-margin-medium-top">Новости</h2>
+                    <div class="uk-grid-medium uk-child-width-1-3@s uk-margin-medium-top uk-margin-medium-bottom" uk-grid>
+                        <div>
+                            <a href="news-item.html" class="no-link">
+                            <div class="uk-card uk-card-small uk-card-default uk-box-shadow-medium uk-box-shadow-hover-large">
+                                <div class="uk-card-media-top">
+                                    <img src="{% static 'img/news1.jpg' %}" alt="">
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title uk-text-bold">Восемь красивейших мест в Кыргызстане назвал National Geographic</h3>
+                                    <p>Уникальное кочевое наследие и захватывающая история Великого Шелкового пути привлекают как искателей приключений, так и любителей культуры, отмечает издание.</p>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="uk-width-expand">
+                            <div class="uk-child-width-1-2 uk-child-width-1-3@s uk-grid-medium" uk-grid="masonry: true">
+                                <div>
+                                    <a href="news-item.html" class="no-link">
+                                    <div class="uk-card uk-card-small uk-card-default uk-box-shadow-medium uk-box-shadow-hover-large">
+                                        <div class="uk-card-media-top">
+                                            <img src="{% static 'img/news2.jpg' %}" alt="">
+                                        </div>
+                                        <div class="uk-card-body">
+                                            <h3 class="uk-h4">Поезд vs самолет: задержка, отмена и компенсация</h3>
+                                        </div>
+                                    </div>
+                                    </a>
+                                </div>
+                                <div>
+                                    <div class="uk-card uk-card-small uk-card-default uk-box-shadow-medium uk-box-shadow-hover-large">
+                                        <div class="uk-card-media-top">
+                                            <img src="{% static 'img/news3.jpg' %}" alt="">
+                                        </div>
+                                        <div class="uk-card-body">
+                                            <h3 class="uk-h4">8 фильмов о путешествиях, основанных на реальных событиях</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-card uk-card-small uk-card-default uk-box-shadow-medium uk-box-shadow-hover-large">
+                                        <div class="uk-card-media-top">
+                                            <img src="{% static 'img/news4.jpg' %}" alt="">
+                                        </div>
+                                        <div class="uk-card-body">
+                                            <h3 class="uk-h4">Как одеться в самолет</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-card uk-card-small uk-card-default uk-box-shadow-medium uk-box-shadow-hover-large">
+                                        <div class="uk-card-media-top">
+                                            <img src="{% static 'img/news5.jpg' %}" alt="">
+                                        </div>
+                                        <div class="uk-card-body">
+                                            <h3 class="uk-h4">Открытые границы</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-card uk-card-small uk-card-default uk-box-shadow-medium uk-box-shadow-hover-large">
+                                        <div class="uk-card-media-top">
+                                            <img src="{% static 'img/news6.jpg' %}" alt="">
+                                        </div>
+                                        <div class="uk-card-body">
+                                            <h3 class="uk-h4">Открытые границы</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-card uk-card-small uk-card-default uk-box-shadow-medium uk-box-shadow-hover-large">
+                                        <div class="uk-card-media-top">
+                                            <img src="{% static 'img/news7.jpg' %}" alt="">
+                                        </div>
+                                        <div class="uk-card-body">
+                                            <h3 class="uk-h4">10 типов туристов, которых все не любят</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+<div class="main-partners uk-background-norepeat uk-background-bottom-right" style="background-image: url({% static 'img/bgnp.jpg' %});" uk-parallax="bgy: 400">
+                <div class="uk-container">
+                    <h2 class="uk-heading-bullet uk-text-uppercase uk-margin-medium-top">Сотрудничающие организации</h2>
+                    <div class="uk-margin-medium-top uk-grid-medium" uk-grid>
+                        <div class="uk-width-expand@s">
+							<div class="uk-card uk-box-shadow-medium uk-card-default uk-grid-collapse uk-margin" uk-grid>
+							    <div class="uk-card-media-left uk-cover-container uk-width-1-4@s">
+							        <img src="{% static 'img/partners/1.jpg' %}" alt="" uk-cover>
+							        <canvas width="600" height="400"></canvas>
+							    </div>
+							    <div class="uk-width-expand">
+							        <div class="uk-card-body uk-card-small">
+							        	<div class="uk-grid-medium uk-flex-middle" uk-grid>
+							        		<div class="uk-width-expand">
+							            		<h4 class="uk-text-bold uk-margin-small-bottom">Kyrgyz Concept</h4>
+							            		<p class="uk-margin-remove-top">Kyrgyz Concept интегрирует Центральную Азию в развитый мир, создавая доступность и многообразие путешествий и ивентов.</p>
+							        		</div>
+							        		<div class="uk-width-auto">
+							        			<a href="partners-item.html" class="uk-button uk-button-small uk-button-secondary brr">
+							        				<span uk-icon="icon: arrow-right; ratio: 1.3"></span>
+							        			</a>
+							        		</div>
+							        	</div>
+							        </div>
+							    </div>
+							</div>
+							<div class="uk-card uk-box-shadow-medium uk-card-default uk-grid-collapse uk-margin" uk-grid>
+							    <div class="uk-card-media-left uk-cover-container uk-width-1-4@s">
+							        <img src="{% static 'img/partners/2.jpg' %}" alt="" uk-cover>
+							        <canvas width="600" height="400"></canvas>
+							    </div>
+							    <div class="uk-width-expand">
+							        <div class="uk-card-body uk-card-small">
+							        	<div class="uk-grid-medium uk-flex-middle" uk-grid>
+							        		<div class="uk-width-expand">
+							            		<h4 class="uk-text-bold uk-margin-small-bottom">PHOENIX TRAVEL</h4>
+							            		<p class="uk-margin-remove-top">Компания PHOENIX TRAVEL предлагает Вам индивидуальные и корпоративные туры в любую часть мира!</p>
+							        		</div>
+							        		<div class="uk-width-auto">
+							        			<a href="partners-item.html" class="uk-button uk-button-small uk-button-secondary brr">
+							        				<span uk-icon="icon: arrow-right; ratio: 1.3"></span>
+							        			</a>
+							        		</div>
+							        	</div>
+							        </div>
+							    </div>
+							</div>
+							<div class="uk-card uk-box-shadow-medium uk-card-default uk-grid-collapse uk-margin" uk-grid>
+							    <div class="uk-card-media-left uk-cover-container uk-width-1-4@s">
+							        <img src="{% static 'img/partners/3.jpg' %}" alt="" uk-cover>
+							        <canvas width="600" height="400"></canvas>
+							    </div>
+							    <div class="uk-width-expand">
+							        <div class="uk-card-body uk-card-small">
+							        	<div class="uk-grid-medium uk-flex-middle" uk-grid>
+							        		<div class="uk-width-expand">
+							            		<h4 class="uk-text-bold uk-margin-small-bottom">Kочевник.kg</h4>
+							            		<p class="uk-margin-remove-top">Kочевник.kg – турагентство, которому доверяют свои путешествия более 7000 человек в год, из них 1000 постоянных клиентов...</p>
+							        		</div>
+							        		<div class="uk-width-auto">
+							        			<a href="partners-item.html" class="uk-button uk-button-small uk-button-secondary brr">
+							        				<span uk-icon="icon: arrow-right; ratio: 1.3"></span>
+							        			</a>
+							        		</div>
+							        	</div>
+							        </div>
+							    </div>
+							</div>
+							<div class="uk-card uk-box-shadow-medium uk-card-default uk-grid-collapse uk-margin" uk-grid>
+							    <div class="uk-card-media-left uk-cover-container uk-width-1-4@s">
+							        <img src="{% static 'img/partners/4.jpg' %}" alt="" uk-cover>
+							        <canvas width="600" height="400"></canvas>
+							    </div>
+							    <div class="uk-width-expand">
+							        <div class="uk-card-body uk-card-small">
+							        	<div class="uk-grid-medium uk-flex-middle" uk-grid>
+							        		<div class="uk-width-expand">
+							            		<h4 class="uk-text-bold uk-margin-small-bottom">Главтур</h4>
+							            		<p class="uk-margin-remove-top">Главтур, Бишкек является первым аккредитованным агентом IATA (Международной Ассоциации Авиаперевозчиков)...</p>
+							        		</div>
+							        		<div class="uk-width-auto">
+							        			<a href="partners-item.html" class="uk-button uk-button-small uk-button-secondary brr">
+							        				<span uk-icon="icon: arrow-right; ratio: 1.3"></span>
+							        			</a>
+							        		</div>
+							        	</div>
+							        </div>
+							    </div>
+							</div>
+							<div class="uk-card uk-box-shadow-medium uk-card-default uk-grid-collapse uk-margin" uk-grid>
+							    <div class="uk-card-media-left uk-cover-container uk-width-1-4@s">
+							        <img src="{% static 'img/partners/5.jpg' %}" alt="" uk-cover>
+							        <canvas width="600" height="400"></canvas>
+							    </div>
+							    <div class="uk-width-expand">
+							        <div class="uk-card-body uk-card-small">
+										<div class="uk-grid-medium uk-flex-middle" uk-grid>
+											<div class="uk-width-expand">
+							            		<h4 class="uk-text-bold uk-margin-small-bottom">Караван</h4>
+							            		<p class="uk-margin-remove-top">Наша компания, основанная в 1992 году, недавно перешагнула свой двадцатилетний рубеж. За эти годы «Караван» ...</p>
+											</div>
+											<div class="uk-width-auto">
+												<a href="partners-item.html" class="uk-button uk-button-small uk-button-secondary brr">
+													<span uk-icon="icon: arrow-right; ratio: 1.3"></span>
+												</a>
+											</div>
+										</div>
+							        </div>
+							    </div>
+							</div>
+							<div class="uk-margin-medium-top uk-margin-medium-bottom">
+								<div class="uk-flex-middle" uk-grid>
+									<div class="uk-width-auto">
+										<div class="plus-main-tours uk-light">
+											<span class="uk-h1 uk-text-bold">+17</span><br>
+											ОРГАНИЗАЦИЙ
+										</div>
+									</div>
+									<div class="uk-width-expand">
+										<a href="#" class="uk-button uk-button-primary uk-box-shadow-large brr">Посмотреть еще</a>
+									</div>
+								</div>
+							</div>
+                        </div>
+                        <div class="uk-width-1-3@s"></div>
+                    </div>
+                </div>
+            </div>
+<div class="pattern">
+            <div class="main-about">
+                <div class="uk-container">
+                    <div class="uk-child-width-1-2@s uk-grid-large" uk-grid>
+                        <div>
+                            <div class="uk-display-block">
+                                <div class="uk-height-large">
+                                    <h3 class="uk-heading-bullet uk-text-uppercase uk-margin-medium-top">Наша деятельность</h3>
+                                    <div class="js-wrapper">
+                                        <p>Туристический Альянс Кыргызстана – независимое объединение, созданное с целью всестороннего содействия развитию розничного сегмента туристического рынка и защиты интересов его участников.<br>
+                                        <b>Для достижения своих целей и задач Альянс:</b>
+                                        </p>
+                                        <div uk-overflow-auto="selContainer: .uk-height-large; selContent: .js-wrapper">
+                                            <div class="uk-margin-small-lef">
+                                                <ul class="uk-list uk-list-striped uk-list-divider uk-margin-small-lef">
+                                                    <li>Взаимодействует с другими участниками туррынка, органами государственной власти, общественными и профессиональными объединениями с целью защиты интересов своих членов</li>
+                                                    <li>Подготавливает предложения и рекомендации по вопросам законодательного совершенствования туротрасли, принимает активное участие в подготовке поправок в отраслевое законодательство и нормативно-правовые акты, регулирующие деятельность туристических агентств</li>
+                                                    <li>Объединяет информационные, организационно-технические, финансовые и прочие возможности членов Альянса для достижения поставленных задач</li>
+                                                    <li>Разрабатывает профессионально-этический кодекс работников турагентского рынка и контролирует его соблюдение членами Альянса</li>
+                                                    <li>Организует проведение конференций, семинаров, пресс-конференций и иных мероприятий, посвященных проблемам развития рынка. Активно влияет на формирование положительного имиджа туротрасли в глазах общественности</li>
+                                                    <li>Устанавливает и развивает связи с зарубежными туристическими ассоциациями, участвует в работе международных организаций</li>
+                                                    <li>Изучает, анализирует и распространяет среди своих членов передовой опыт зарубежных коллег</li>
+                                                    <li>Осуществляет любую другую деятельность, направленную на достижение целей и задач Альянса</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="uk-heading-bullet uk-text-uppercase uk-margin-medium-top">Об Альянсе </h3>
+                            <p>
+                                Создание Альянса туристических агентств (АТА) является значимой вехой в истории российского туррынка. Появление собственного объединения общефедерального масштаба – итог давно назревшей серьезной внутренней потребности розничного рынка к консолидации и структурированию.
+                            </p>
+                            <p>Главными целями и задачами АТА являются формирование цивилизованных конкурентных отношений между участниками рынка, преодоление разобщенности, выстраивание конструктивного диалога с поставщиками турпродукта и их объединениями, а также органами государственной власти, СМИ и потребителями.</p>
+                            <p class="uk-margin-medium-top uk-margin-xlarge-bottom">
+                                <a href="" class="uk-button uk-button-default brr uk-box-shadow-medium">Читать далее <span uk-icon="icon: arrow-right"></span></a>
+                            </p>
+                        </div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-about-bottom uk-background-norepeat uk-background-top-center" style="background-image: url({% static 'img/bg-about-bottom.jpg' %});" uk-parallax="bgy: -150">
+                <div class="uk-container">
+                    <div class="uk-grid-medium uk-child-width-1-3@s uk-margin-large-top uk-margin-large-bottom" uk-grid uk-height-match="target: > div > .uk-card">
+                        <div>
+                            <div class="uk-card uk-card-small uk-card-default">
+                                <div class="uk-card-media-top">
+                                    <img src="{% static 'img/s1.jpg' %}" alt="">
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-h4">Корпоративный деловой туризм по системе MICE</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-small uk-card-default">
+                                <div class="uk-card-media-top">
+                                    <img src="{% static 'img/news5.jpg' %}" alt="">
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-h4">Открытые границы</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-small uk-card-default">
+                                <div class="uk-card-media-top">
+                                    <img src="{% static 'img/news5.jpg' %}" alt="">
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-h4">Открытые границы</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+{% endblock %}

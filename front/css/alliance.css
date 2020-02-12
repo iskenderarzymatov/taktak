@@ -1,0 +1,372 @@
+.logo img {
+	width: 150px;
+}
+
+.header {
+	padding: 20px 0px 20px 0;
+}
+
+.tm-main {
+	padding: 0 0 0 50px;
+}
+
+.tm-sidebar-left {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	box-sizing: border-box;
+	width: 50px !important;
+	overflow: auto;
+	background: rgb(0,157,169);
+	background: linear-gradient(180deg, rgba(0,157,169,1) 0%, rgba(17,115,115,1) 100%); 
+}
+
+.tm-sidebar-content {
+	height: 100%;
+}
+.pabss {
+	padding-top: 20px;
+}
+
+.fbbbb {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+
+.logo-text {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+	writing-mode: tb-rl;
+	color: #fff;
+	font-size: 17px;
+}
+
+.tm-sidebar-top {
+	width: 50px;
+	height: 60%;
+}
+
+.tm-sidebar-bottom {
+	height: 40%;
+}
+
+.head-content {
+	height: 80px;
+	padding-top: 15px;
+}
+
+.head-nav-menu {
+	text-align: center;
+	display: block;
+	padding: 15px 5px 10px 5px;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #0b8185;
+	border-bottom: 5px solid #fff;
+}
+
+.head-nav-menu:hover {
+	text-decoration: none;
+	color: #0b8185;
+	border-bottom: 5px solid;
+}
+
+.head-nav {
+	border: 1px solid #e5e5e5;
+}
+
+.head-content img {
+	width: 40px;
+	border-radius: 100px;
+}
+
+.brr {
+	border-radius: 100px;
+}
+
+.uk-button-primary {
+	background: rgb(0,157,169);
+	background: linear-gradient(90deg, rgba(0,157,169,1) 0%, rgba(17,115,115,1) 100%); 
+	color: #fff;
+	border: 1px solid transparent;
+}	
+
+.uk-button-primary:hover {
+	background: rgb(0,157,169);
+	background: linear-gradient(360deg, rgba(0,157,169,1) 0%, rgba(17,115,115,1) 100%); 
+	color: #fff !important;
+	border: 1px solid transparent;
+}	
+
+.main-bg {
+	height: 600px;
+}
+
+
+.uk-light .uk-button-secondary {
+	color: #fff;
+ background: rgb(238,192,27);
+background: linear-gradient(308deg, rgba(238,192,27,1) 0%, rgba(227,158,17,1) 100%); 
+}
+
+.uk-light .uk-button-secondary:hover {
+	color: #fff !important;
+ background: rgb(238,192,27);
+background: linear-gradient(90deg, rgba(238,192,27,1) 0%, rgba(227,158,17,1) 100%); 
+}
+
+
+.uk-light .uk-button-primary  {
+	color: #fff;
+}
+
+.uk-card-badge {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	z-index: 1;
+}
+
+.uk-label {
+	display: inline-block;
+	padding: 0 10px;
+	background: rgb(0,0,0, 0.5);
+	line-height: 1.5;
+	font-size: 11px;
+	color: #fff;
+	vertical-align: middle;
+	white-space: nowrap;
+	border-radius: 2px;
+	text-transform: uppercase;
+}
+
+.uk-h1, .uk-h2, .uk-h3, .uk-h4, .uk-h5, .uk-h6, .uk-heading-2xlarge, .uk-heading-large, .uk-heading-medium, .uk-heading-small, .uk-heading-xlarge, h1, h2, h3, h4, h5, h6 {
+	color: #0c5152;
+}
+
+.uk-card-default .uk-card-title {
+	color: #0c5152;
+}
+
+.uk-card-default {
+	color: #203737;
+}
+
+.pattern {
+	background-image: url("../img/pattern.png");
+}
+
+.uk-offcanvas-bar {
+	background: rgb(0,157,169);
+	background: linear-gradient(180deg, rgba(17,115,115,1) 0%, rgb(13, 89, 89) 100%);
+}
+
+.tm-sidebar-content a {
+	color: #fff;
+}
+
+.tm-sidebar-content a:hover {
+	color: #edbd1a;
+}
+
+.plus-main-tours {
+	font-size: 12px;
+}
+
+.uk-button-secondary {
+	background-color: #eec01b;
+	color: #fff;
+	border: 1px solid transparent;
+}
+
+.uk-button-secondary:hover {
+	background-color: #ea9b13;
+	color: #fff;
+	border: 1px solid transparent;
+}
+
+html {
+	color: #203737;
+}
+
+.main-about {
+ background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,0.01) 15%, rgba(255,255,255,1) 100%); 
+}
+
+.main-about-bottom {
+	background-color: #fff;
+	height: 650px;
+}
+
+.footer {
+	background: #306465;
+}
+
+.footb {
+	padding: 20px 25px;
+}
+
+.foot-1 {
+	background: #317172;
+}
+
+.foot-2 {
+	background: #3a797a;
+}
+
+.foot-3 {
+	background: #468586;
+}
+
+.foot-4 {
+	background: #568f90;
+}
+
+.fogo img {
+	width: 150px;
+}
+
+.sub-footer {
+	padding: 20px 0;
+}
+
+.uk-icon-button {
+	background: #eec01b;
+	color: #fff;
+}
+
+.uk-icon-button:hover {
+	background: #ea9b13;
+	color: #fff;
+}
+
+
+.about-person-img {
+	border: 1px solid #e1e1e1;
+	padding: 15px;
+}
+
+.aboit-berkut {
+ background: rgb(172,224,249);
+background: linear-gradient(180deg, rgba(172,224,249,1) 15%, rgba(255,255,255,1) 100%); 
+}
+
+.berkut3 {
+	height: 450px;
+}
+.nnmppd {
+	margin-top: -50px;
+}
+
+.best-link {
+	 background: rgb(238,192,27);
+background: linear-gradient(90deg, rgba(238,192,27,1) 0%, rgba(255,255,255,0) 30%); 
+text-decoration: none;
+}
+
+.best-link:hover {
+	 background: rgb(238,192,27);
+background: linear-gradient(90deg, rgba(238,192,27,1) 0%, rgba(238,192,27,1) 100%); 
+text-decoration: none;
+color: #fff;
+}
+
+.uk-link, a {
+	color: #1592c3;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.no-link {
+	text-decoration: none;
+}
+
+.no-link:hover {
+	text-decoration: none;
+}
+
+.moblogo {
+	width: 135px;
+	padding: 15px 15px;
+}
+
+
+.uk-navbar-toggle.uk-navbar-toggle-icon.uk-icon {
+	min-height: 50px !important;
+	border-radius: 50px;
+	background: #66c3aa;
+	color: #fff;
+}
+
+.uk-navbar-toggle-icon {
+	background: #009da9;
+	padding: 13px 13px;
+	border-radius: 50px;
+	color: #eec01b;
+	border: 1px solid #006463;
+}
+
+.headphone {
+	background: #009da9;
+	padding: 3px 3px;
+	border-radius: 30px;
+	color: #fff;
+	width: 30px;
+}
+
+.uk-nav-default {
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+.uk-light .uk-nav-default > li.uk-active > a, .uk-offcanvas-bar .uk-nav-default > li.uk-active > a {
+	color: #eec01b;
+	padding: 0px 0px 0px 15px;
+	border-left: 5px solid;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.uk-light .uk-nav-default > li > a, .uk-offcanvas-bar .uk-nav-default > li > a {
+ 	color: rgba(255, 255, 255, 0.9);
+}
+
+.uk-light .uk-icon-button, .uk-offcanvas-bar .uk-icon-button {
+	background: #e4a012;
+}
+
+.mob-nav { 
+	background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 80%); 
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.sub-footer {
+	padding: 20px 0;
+	font-size: 14px;
+}
+
+/* Tablet landscape and bigger */
+@media (max-width: 960px) {
+.tm-main {
+	padding: 0;
+}
+
+.main-bg {
+	height: 500px;
+}
+
+.main-about-bottom {
+	background-color: #fff;
+	height: auto;
+}
+
+}
