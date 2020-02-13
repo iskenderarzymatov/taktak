@@ -92,7 +92,7 @@
                                     </div>
                                     <div class="uk-width-expand">
                                         <div class="uk-float-right uk-margin-medium-left">
-                                            <a class="uk-button uk-button-primary brr" href="contactus.html">Контакты</a>
+                                            <a class="uk-button uk-button-primary brr" href="{% url 'contactus' %}">Контакты</a>
                                         </div>
                                         <div class="uk-float-right">
                                             <div class="uk-flex-middle uk-grid-small" uk-grid>
@@ -113,19 +113,19 @@
                                         <a href="{% url 'home' %}" class="head-nav-menu uk-text-bold">Главная</a>
                                     </div>
                                     <div>
-                                        <a href="{% url 'about' %}" class="head-nav-menu">Об Альянсе</a>
+                                        <a href="{% url 'about' %}" class="head-nav-menu uk-text-bold">Об Альянсе</a>
                                     </div>
                                     <div>
-                                        <a href="deyatelnost.html" class="head-nav-menu">Деятельность</a>
+                                        <a href="{% url 'deyatelnost' %}" class="head-nav-menu uk-text-bold">Деятельность</a>
                                     </div>
                                     <div>
-                                        <a href="news.html" class="head-nav-menu">Новости</a>
+                                        <a href="{% url 'news' %}" class="head-nav-menu uk-text-bold">Новости</a>
                                     </div>
                                     <div>
-                                        <a href="partners.html" class="head-nav-menu">Партнеры</a>
+                                        <a href="{% url 'partners' %}" class="head-nav-menu uk-text-bold">Партнеры</a>
                                     </div>
                                     <div>
-                                        <a href="tours.html" class="head-nav-menu">Туры</a>
+                                        <a href="{% url 'tours' %}" class="head-nav-menu uk-text-bold">Туры</a>
                                     </div>
                                 </div>
                             </div>
