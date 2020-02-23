@@ -1,4 +1,5 @@
 {% load static %}
+{% load main_tags %}
 <!DOCTYPE html>
 <html>
     <head>
@@ -110,22 +111,22 @@
                             <div class="head-nav uk-box-shadow-medium">
                                 <div class="uk-grid-small uk-grid-divider uk-child-width-1-6" uk-grid>
                                     <div>
-                                        <a href="{% url 'home' %}" class="head-nav-menu uk-text-bold">Главная</a>
+                                        <a href="{% url 'home' %}" class="head-nav-menu {% nav_text_bold_class request '/' %}">Главная</a>
                                     </div>
                                     <div>
-                                        <a href="{% url 'about' %}" class="head-nav-menu uk-text-bold">Об Альянсе</a>
+                                        <a href="{% url 'about' %}" class="head-nav-menu {% nav_text_bold_class request '/about/' %}">Об Альянсе</a>
                                     </div>
                                     <div>
-                                        <a href="{% url 'deyatelnost' %}" class="head-nav-menu uk-text-bold">Деятельность</a>
+                                        <a href="{% url 'deyatelnost' %}" class="head-nav-menu {% nav_text_bold_class request '/deyatelnost/' %}">Деятельность</a>
                                     </div>
                                     <div>
-                                        <a href="{% url 'news' %}" class="head-nav-menu uk-text-bold">Новости</a>
+                                        <a href="{% url 'news' %}" class="head-nav-menu {% nav_text_bold_class request '/news/' %}">Новости</a>
                                     </div>
                                     <div>
-                                        <a href="{% url 'partners' %}" class="head-nav-menu uk-text-bold">Партнеры</a>
+                                        <a href="{% url 'partners' %}" class="head-nav-menu {% nav_text_bold_class request '/partners/' %}">Партнеры</a>
                                     </div>
                                     <div>
-                                        <a href="{% url 'tours' %}" class="head-nav-menu uk-text-bold">Туры</a>
+                                        <a href="{% url 'tours' %}" class="head-nav-menu {% nav_text_bold_class request '/tours/' %}">Туры</a>
                                     </div>
                                 </div>
                             </div>
