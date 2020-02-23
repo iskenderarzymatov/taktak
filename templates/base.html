@@ -198,7 +198,7 @@
             	<div class="uk-container">
             		<div class="uk-grid-margin-medium uk-flex-middle" uk-grid>
             			<div class="uk-width-expand@s">
-							Copyright © 2019 All Right Reserved, Tak.kg. Website Designed &amp; Developed By<br class="uk-hidden@s"> <a class="uk-text-bold" href="http://kunbala.com/" target="_blank" style="color: #306465"><img src="img/kunbala.png" style="margin-right: 5px;" width="20">Kunbala Digital.</a>
+							Copyright © 2019 All Right Reserved, Tak.kg. Website Designed &amp; Developed By<br class="uk-hidden@s"> <a class="uk-text-bold" href="http://kunbala.com/" target="_blank" style="color: #306465"><img src="{% static 'img/kunbala.png' %}" style="margin-right: 5px;" width="20">Kunbala Digital.</a>
             			</div>
             			<div class="uk-width-auto@s">
             				<a href="" class="uk-icon-button uk-margin-small-left" uk-icon="instagram"></a>
@@ -215,13 +215,13 @@
 		        <button class="uk-offcanvas-close" type="button" uk-close></button>
 				<div class="uk-width-1-2@s uk-width-2-5@m">
 				    <ul class="uk-nav-default uk-nav-parent-icon uk-margin-medium-top" uk-nav="multiple: true">
-				        <li class="uk-active"><a href="index.html">Главная</a></li>
-				        <li><a href="about.html">Об Альянсе</a></li>
-				        <li><a href="deyatelnost.html">Деятельность</a></li>
-				        <li><a href="news.html">Новости</a></li>
-				        <li><a href="partners.html">Партнеры</a></li>
-				        <li><a href="tours.html">Туры</a></li>
-				        <li><a href="contactus.html">Контакты</a></li>
+				        <li class="uk-active"><a href="{% url 'home' %}">Главная</a></li>
+				        <li><a href="{% url 'about' %}">Об Альянсе</a></li>
+				        <li><a href="{% url 'deyatelnost' %}">Деятельность</a></li>
+				        <li><a href="{% url 'news' %}">Новости</a></li>
+				        <li><a href="{% url 'partners' %}">Партнеры</a></li>
+				        <li><a href="{% url 'tours' %}">Туры</a></li>
+				        <li><a href="{% url 'contactus' %}">Контакты</a></li>
 				    </ul>
 				    <button class="uk-button uk-button-secondary uk-width-1-1 uk-margin-medium-top brr" uk-toggle="target: #offcanvas-reveal">Вступить в альянс</button>
 				    <hr>
